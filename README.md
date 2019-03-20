@@ -1,6 +1,6 @@
 This project counts the vowels, consonants and "other" characters in a string.
 
-**REACT NOTES**
+**REACT NOTES - Automatically included**
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

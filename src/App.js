@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
+// import VowelCount from './VowelCount.js'
 
 class App extends Component {
   render() {
@@ -9,6 +9,8 @@ class App extends Component {
         <header className="App-header">
           <h1>Counting Letters</h1>
           <input placeholder="enter text here"/>
+          {/* <VowelCount/>
+          <ConsonantCount/> */}
         </header>
       </div>
     );

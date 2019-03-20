@@ -1,15 +1,12 @@
+/* Font-Family: 'PT Sans', Sans-Serif;
+Font-Family: 'Bitter', Serif; */
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #F1BB87;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,20 +16,16 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #61dafb;
+  font-family: 'Bitter', Serif;
+  color: #5D675B;
+}
+input {
+  font-family: 'PT Sans', Sans-Serif;
+  font-size: 1em;
+  border-radius: 10px;
+  color: #505168;
+  font-weight: bold;
+  padding-left: 5px;
+  background-color: #EAEFD3;
 }
