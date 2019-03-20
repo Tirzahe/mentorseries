@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-// import VowelCount from './VowelCount.js'
+import VowelCount from './VowelCount.js';
+import ConsonantCount from './ConsonantCount.js';
 
 class App extends Component {
   render() {
@@ -9,8 +10,8 @@ class App extends Component {
         <header className="App-header">
           <h1>Counting Letters</h1>
           <input placeholder="enter text here"/>
-          {/* <VowelCount/>
-          <ConsonantCount/> */}
+          <VowelCount/>
+          <ConsonantCount/>
         </header>
       </div>
     );
