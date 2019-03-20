@@ -6,7 +6,12 @@ class ConsonantCount extends Component {
     render() {
         return (
         <div className="ConsonantCount">
-            <h2>Total Consonants:</h2>
+            <h2>
+                Total Consonants:
+            </h2>
+            <h3>
+                Total "other" characters:
+            </h3>
         </div>
         );
     }
