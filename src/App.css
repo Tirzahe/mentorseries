@@ -1,24 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
 /* Font-Family: 'PT Sans', Sans-Serif;
 Font-Family: 'Bitter', Serif; */
-
+body {
+  background-image: url('./img/raphael-schaller-88040-unsplash.jpg');
+  background-size: cover; 
+  background-repeat:no-repeat;
+}
 .App {
   text-align: center;
-}
-
-.App-header {
-  background-color: #F1BB87;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.App-header {
   font-size: calc(10px + 2vmin);
+  margin: 15px;
   color: white;
 }
 
 h1 {
   font-family: 'Bitter', Serif;
-  color: #5D675B;
+  margin: 25px;
+  color: whitesmoke;
 }
 input {
   font-family: 'PT Sans', Sans-Serif;
@@ -28,4 +36,8 @@ input {
   font-weight: bold;
   padding-left: 5px;
   background-color: #EAEFD3;
+}
+h2 {
+  text-align: left;
+  margin: 15px;
 }

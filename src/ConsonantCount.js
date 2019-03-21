@@ -12,6 +12,9 @@ class ConsonantCount extends Component {
             <h2>
                 Total "other" characters:
             </h2>
+            <h2>
+                GRAND TOTAL - ALL characters:
+            </h2>
         </div>
         );
     }

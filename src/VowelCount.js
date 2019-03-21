@@ -3,10 +3,11 @@ import React, { Component } from 'react';
 //This is where the vowel count function and result lives
 
 class VowelCount extends Component {
-    render() {
+    render(props) {
         return (
         <div className="VowelCount">
             <h2>Total Vowels:</h2>
+            {/* get string and do vowel count return vowel count here. */}
         </div>
         );
     }
