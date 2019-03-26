@@ -18,24 +18,27 @@ body {
 }
 
 .App-header {
+  background-color: rgba(88, 70, 63, 0.7);
+  border-radius: 15px;
   font-size: calc(10px + 2vmin);
-  margin: 15px;
-  color: white;
+  margin: 35px;
+  padding: 35px;
+  color: #F6F0ED;
 }
 
 h1 {
   font-family: 'Bitter', Serif;
   margin: 25px;
-  color: whitesmoke;
+  color: #F6F0ED;
 }
 input {
   font-family: 'PT Sans', Sans-Serif;
   font-size: 1em;
   border-radius: 10px;
-  color: #505168;
+  color: #C2948A;
   font-weight: bold;
   padding-left: 5px;
-  background-color: #EAEFD3;
+  background-color: #F6F0ED;
 }
 h2 {
   text-align: left;
