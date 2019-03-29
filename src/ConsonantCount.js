@@ -4,16 +4,18 @@ import React, { Component } from 'react';
 
 class ConsonantCount extends Component {
     render() {
+        const { consonants, others, total } = this.props;
+
         return (
         <div className="ConsonantCount">
             <h2>
-                Total Consonants:
+                Total Consonants: { consonants }
             </h2>
             <h2>
-                Total "other" characters:
+                Total "other" characters: { others }
             </h2>
             <h2>
-                GRAND TOTAL - ALL characters:
+                GRAND TOTAL - ALL characters: { total }
             </h2>
         </div>
         );

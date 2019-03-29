@@ -35,7 +35,6 @@ function isVowel(character){
 
 // module.exports = (string) => {
 function counting(string) {
-    let string = "testing this for life";
     let strArr = string.split("");
     let vowelCount = 0;
     let consonantCount = 0;
@@ -54,9 +53,18 @@ function counting(string) {
     //     
     });
     console.log(counts); // not logging
+
+    return {
+        vowels: vowelCount,
+        consonants: consonantCount,
+        others: otherCount,
+        total: vowelCount + consonantCount + otherCount,
+    };
     
     //What should we return from here so we have all the data we need
     // to fufill the requirements (number of vowels, number of consonants, number of others)?
 };
 
 console.log("hello");
+
+export default counting;
