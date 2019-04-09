@@ -8,15 +8,15 @@ class ConsonantCount extends Component {
 
         return (
         <div className="ConsonantCount">
-            <h2>
+            <h3>
                 Total Consonants: { consonants }
-            </h2>
-            <h2>
+            </h3>
+            <h3>
                 Total "other" characters: { others }
-            </h2>
-            <h2>
+            </h3>
+            <h3>
                 GRAND TOTAL - ALL characters: { total }
-            </h2>
+            </h3>
         </div>
         );
     }

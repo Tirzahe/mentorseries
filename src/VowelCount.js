@@ -6,7 +6,7 @@ class VowelCount extends Component {
     render() {
         return (
         <div className="VowelCount">
-            <h2>Total Vowels: {this.props.count}</h2>
+            <h3>Total Vowels: {this.props.count}</h3>
             {/* get string and do vowel count return vowel count here. */}
         </div>
         );

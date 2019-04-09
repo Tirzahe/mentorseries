@@ -2,6 +2,7 @@ function isAlpha(character){
     return /[a-zA-Z]/.test(character);
 }
 
+//TODO refactor
 function isVowel(character){
     switch(character){
         case 'A':
@@ -33,7 +34,7 @@ function isVowel(character){
     }
 }
 
-// module.exports = (string) => {
+//TODO refactor this
 function counting(string) {
     let strArr = string.split("");
     let vowelCount = 0;
@@ -47,9 +48,9 @@ function counting(string) {
         else if(isAlpha(item)){
             consonantCount++;
         }
-        // else {
-        //     otherCount++;
-        // }
+        else {
+            otherCount++;
+        }
     //     
     });
     console.log(counts); // not logging

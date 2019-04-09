@@ -22,12 +22,16 @@ export default () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Counting Letters of {value}</h1>
+        <h1>Counting Letters of:</h1>
+        <div className="InputText">
+          <h2>{value}</h2>
+        </div>
         <input
           value={value}
           placeholder="enter text here"
           onChange={event => setValue(event.target.value)}/>
         <VowelCount count={vowels} />
+        { /* TODO refactor */ }
         <ConsonantCount
           consonants={consonants}
           others={others}
