@@ -1,3 +1,4 @@
+
 /*
 [
     { name, age },
@@ -47,10 +48,10 @@ function youngest(family){
     { name: 'Rachel', age: 9 },
 ];
 const oldestName = oldest(myTestFamily); // -> 'Analice'
-console.log("Hello " + oldestName.name + ", you're the oldest!");
+console.log("Hello " + oldestName.name + ", you're the oldest, at " + oldestName.age + " years old!");
 
 const youngestName = youngest(myTestFamily); // -> 'Sarah'
-console.log("Hello " + youngestName.name + ", you're the youngest!");
+console.log("Hello " + youngestName.name + ", you're the youngest at " + youngestName.age + " years old!");
 
 module.exports = { oldest, youngest };
 
