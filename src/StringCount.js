@@ -4,35 +4,47 @@ function isAlpha(character){
 
 //TODO refactor
 function isVowel(character){
-    switch(character){
-        case 'A':
-            return true;
-        case 'a':
-            return true;
-        case 'E':
-            return true;
-        case 'e':
-            return true;
-        case 'I':
-            return true;
-        case 'i':
-            return true;
-        case 'O':
-            return true;
-        case 'o':
-            return true;
-        case 'U':
-            return true;
-        case 'u':
-            return true;
-        case 'Y': // and sometimes Y
-            return true;
-        case 'y': // and sometimes y
-            return true;
-        default:
-            return false;
-    }
+    return /[aeiouyAEIOUY]/.test(character);
 }
+
+// function isVowel(character){
+//     switch(character){
+//         case 'A':
+//             return true;
+//         case 'a':
+//             return true;
+//         case 'E':
+//             return true;
+//         case 'e':
+//             return true;
+//         case 'I':
+//             return true;
+//         case 'i':
+//             return true;
+//         case 'O':
+//             return true;
+//         case 'o':
+//             return true;
+//         case 'U':
+//             return true;
+//         case 'u':
+//             return true;
+//         case 'Y': // and sometimes Y
+//             return true;
+//         case 'y': // and sometimes y
+//             return true;
+//         default:
+//             return false;
+//     }
+// }
+// function isVowel(character){
+//     if (/[^aeiouy]/gi){
+//         return false;
+//     }
+//     else {
+//         return true;
+//     }
+// }
 
 //TODO refactor this
 function counting(string) {
@@ -61,9 +73,6 @@ function counting(string) {
         others: otherCount,
         total: vowelCount + consonantCount + otherCount,
     };
-    
-    //What should we return from here so we have all the data we need
-    // to fufill the requirements (number of vowels, number of consonants, number of others)?
 };
 
 console.log("hello");
