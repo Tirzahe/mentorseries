@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import './App.css';
 import VowelCount from './VowelCount.js';
 import ConsonantCount from './ConsonantCount.js';
-
+import OtherCount from './OtherCount.js';
 import stringCount from './StringCount.js';
+import TotalCount from './TotalCount';
 
 export default () => {
   // useState takes one argument (empty string here)
@@ -34,8 +35,15 @@ export default () => {
         { /* TODO refactor */ }
         <ConsonantCount
           consonants={consonants}
-          others={others}
-          total={total} />
+          // others={others}
+          // total={total} 
+          />
+        <OtherCount others={others} />
+        <TotalCount total={total} />
+        { /* <CountLabel label="Total Vowels" count={vowels} /> */ }
+        { /* <CountLabel label="Total Consonants" count={consonants} /> */ }
+        { /* <CountLabel label={`Total "other" characters`} count={others} /> */ }
+        { /* <CountLabel label="GRAND TOTAL - ALL characters" count={total} /> */ }
       </header>
     </div>
   );
